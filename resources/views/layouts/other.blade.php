@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" id="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'West Express') }}</title>
+    <title>West Express</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
