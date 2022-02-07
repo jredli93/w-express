@@ -19,7 +19,8 @@
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vegas.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/lity.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">     
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">    
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.ico" /> 
 </head>
 <body>
     

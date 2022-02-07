@@ -26,6 +26,7 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('css/lity.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.ico" />
 </head>
 
 <body class="{{ (Request::is('contact') ? 'gradient-background' : '') }}">
