@@ -60,127 +60,306 @@
                     class="btn careers-cta-left-btn btn--gradient btn--xlrg">
                     <span class="btn__text"><i class="fa fa-2x fa-file-pdf cta-pdf"></i>Fill in the application</span>
                 </a>
-                <div id="application-form" style="background:#fff" class="modalbox about-work-modal lity-hide">
+                <div id="application-form" style="background:#fff" class="modalbox lity-hide">
                     <div class="bg-effect"></div>
                     <h1 class="modal-title">Initial Application</h1>
                     <div class="modal-center">
-                        <div class="contact-form">
-                            <form action="#" class="input-form">
-
-                                <label>Full Name:</label>
-                                <input placeholder="First Middle Last" type="text" name="full-name" class="form-name">
-
-                                <label>Current Address: </label>
-                                <input placeholder="Street City State,Zip" type="text" class="form-name">
-
-                                <label>Previous Address(es): </label>
-                                <input placeholder="Street City State,Zip" type="text" class="form-name">
-
-                                <label>Previous Address(es): </label>
-                                <input placeholder="Street City State,Zip" type="text" class="form-name">
-
-                                <div class="contact-details">
-                                    <div class="contact-input-wrap">
-                                        <label>Phone: </label>
-                                        <input type="number" placeholder="(555) 555-1234" class="form-name">
-                                    </div>
-                                    <div class="contact-input-wrap">
-                                        <label>Date of Birth</label>
-                                        <input type="date" id="start" class="form-name" name="trip-start"
-                                            value="2018-07-22" min="2018-01-01" max="2018-12-31">
-                                    </div>
-                                    <div class="contact-input-wrap">
-                                        <label>Social Security: </label>
-                                        <input type="text" placeholder="xxx-xx-xxxx" class="form-name">
-                                    </div>
-                                </div>
-
-                                <div class="contact-details">
-                                    <div class="contact-input-wrap">
-                                        <label>Emergency Contact Name </label>
-                                        <input type="text" class="form-name">
+                        <div class="application-form">
+                            <div class="container">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="form-group">
+                                                <label for="fullname">Full Name</label>
+                                                <input type="text" class="form-control" placeholder="First Middle Last"
+                                                    id="fullname">
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <div class="contact-input-wrap">
-                                        <label>Relation</label>
-                                        <input type="text" class="form-name">
+                                    <div class="row">
+                                        <div class="col-xl-8">
+                                            <div class="form-group">
+                                                <label for="current-address">Current Address</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="(Street) (City) (State,Zip)" id="current-address">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="how-long">How Long?</label>
+                                                <input type="text" class="form-control" placeholder="2 yrs"
+                                                    id="how-long">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="contact-details">
-                                    <div class="contact-input-wrap">
-                                        <label>Contact Address </label>
-                                        <input type="text" class="form-name">
+                                    <div class="row">
+                                        <div class="col-xl-8">
+                                            <div class="form-group">
+                                                <label for="previous-address1">Previous Address</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="(Street) (City) (State,Zip)" id="previous-address1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="previous-address1-how-long">How Long?</label>
+                                                <input type="text" class="form-control" placeholder="2 yrs"
+                                                    id="previous-address1-how-long">
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <div class="contact-input-wrap">
-                                        <label>Phone #</label>
-                                        <input type="number" placeholder="(555) 555-1234" class="form-name">
+                                    <div class="row">
+                                        <div class="col-xl-8">
+                                            <div class="form-group">
+                                                <label for="previous-address2">Previous Address</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="(Street) (City) (State,Zip)" id="previous-address2">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="previous-address2-how-long">How Long?</label>
+                                                <input type="text" class="form-control" placeholder="2 yrs"
+                                                    id="previous-address2-how-long">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <label class="contact-heading">Driver's license information: </label>
-                                <div class="contact-license">
-                                    <label>State: </label>
-                                    <input type="text" class="form-name">
+                                    <div class="row">
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="phone">Phone</label>
+                                                <input type="text" class="form-control" id="phone"
+                                                    placeholder="(555)5550-1234">
+                                            </div>
+                                        </div>
+                                        <!--  col-xl-6   -->
 
-                                    <label>License #</label>
-                                    <input type="number" class="form-name">
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="dob">Date of Birth</label>
+                                                <input type="date" class="form-control" id="dob">
+                                            </div>
 
-                                    <label>Type: </label>
-                                    <input type="text" class="form-name">
+                                        </div>
 
-                                    <label>Expiration Date: </label>
-                                    <input type="date" id="start" class="form-name" name="trip-start" value="2018-07-22"
-                                        min="2018-01-01" max="2018-12-31">
-                                </div>
-
-                                <label class="contact-heading">Driver experience </label>
-                                <div class="contact-license">
-                                    <label>Type of Equipment </label>
-                                    <input type="text" class="form-name">
-
-                                    <label>From</label>
-                                    <input type="date" id="start" class="form-name" name="trip-start" value="2018-07-22"
-                                        min="2018-01-01" max="2018-12-31">
-                                    <label>To </label>
-                                    <input type="date" id="start" class="form-name" name="trip-start" value="2018-07-22"
-                                        min="2018-01-01" max="2018-12-31">
-
-                                    <label>Miles</label>
-                                    <input placeholder="Approx. number" type="number" class="form-name">
-                                </div>
-
-                                <div class="contact-box-wrap">
-                                    <span class="contact-radio-text">Have you ever been denied a license, permit or
-                                        privilege to operate a motor
-                                        vehicle?</span>
-                                    <div class="contact-box-radio-wrap">
-                                        <input type="radio" name="contact-radio-denied" value="Yes"><span>Yes</span>
-                                        <input type="radio" name="contact-radio-denied" value="No"><span>No</span>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="social">Social Security #</label>
+                                                <input type="text" class="form-control" id="social"
+                                                    placeholder="xxx-xx-xxxx">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="contact-box-wrap">
-                                    <span class="contact-radio-text">Has any license, permit or privilege ever been
-                                        suspended or revoked?</span>
-                                    <div class="contact-box-radio-wrap">
-                                        <input type="radio" name="contact-radio-revoked" value="Yes"><span>Yes</span>
-                                        <input type="radio" name="contact-radio-revoked" value="No"><span>No</span>
+                                    <div class="row">
+                                        <div class="col-xl-8">
+                                            <div class="form-group">
+                                                <label for="emergency-contact-name">Emergency Contact Name</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="" id="emergency-contact-name">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="contact-relation">Relation</label>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    id="contact-relation">
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                    <span class="contact-radio-text">I certify that I have authorized West Express LLC
-                                        to perform my Driving Records (MVR) check as a requirement of employment at the
-                                        company listed above.</span>
-                                    <input type="checkbox" name="contact-checkbox-accept" value="I accept">
+                                    <div class="row">
+                                        <div class="col-xl-8">
+                                            <div class="form-group">
+                                                <label for="emergency-contact-address">Contact Address</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="(Street) (City) (State,Zip)" id="emergency-contact-address">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="emergency-contact-phone">Phone</label>
+                                                <input type="text" class="form-control" placeholder="(555)5550-1234"
+                                                    id="emergency-contact-phone">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <h2 class="application-form-heading">Driver's License Information</h2>
+
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-state">State</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="" id="drivers-state">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-license">License #</label>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    id="drivers-license">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-type">Type</label>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    id="drivers-type">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-expiration">Expiration Date</label>
+                                                <input type="date" class="form-control" placeholder=""
+                                                    id="drivers-expiration">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-state1">State</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="" id="drivers-state1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-license1">License #</label>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    id="drivers-license1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-type1">Type</label>
+                                                <input type="text" class="form-control" placeholder=""
+                                                    id="drivers-type1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-expiration1">Expiration Date</label>
+                                                <input type="date" class="form-control" placeholder=""
+                                                    id="drivers-expiration1">
+                                            </div>
+                                        </div>
+                                    </div>
 
 
-                                <a href="#" style="margin-top:0.3rem" class="btn btn--xlrg btn--gradient">
-                                    <span class="btn__text btn-text">Send</span>
-                                </a>
+                                    <h2 class="application-form-heading">Drivers Experience</h2>
 
-                            </form>
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-equipment">Equipment Type</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="" id="drivers-equipment">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-from">From</label>
+                                                <input type="date" class="form-control"
+                                                    id="drivers-from">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-to">To</label>
+                                                <input type="date" class="form-control"
+                                                    id="drivers-to">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-miles">Miles</label>
+                                                <input type="text" class="form-control" placeholder="Approx #"
+                                                    id="drivers-miles">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            
+
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-equipment1">Equipment Type</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="" id="drivers-equipment1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-from1">From</label>
+                                                <input type="date" class="form-control"
+                                                    id="drivers-from1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="form-group">
+                                                <label for="drivers-to1">To</label>
+                                                <input type="date" class="form-control"
+                                                    id="drivers-to1">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-2">
+                                            <div class="form-group">
+                                                <label for="drivers-miles1">Miles</label>
+                                                <input type="text" class="form-control" placeholder="Approx #"
+                                                    id="drivers-miles1">
+                                            </div>
+                                        </div>
+                                    </div>                     
+                                
+                                    <div class="row application-footer">
+                                        <label for="contact-preference">Have you ever been denied a license, permit or
+                                            privilage to operate a motor vehicle?</label>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="denied" id="contact-preference"
+                                                    value="Yes">Yes
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="denied" id="contact-preference"
+                                                    value="No">No
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row application-footer">
+                                        <label for="contact-preference">Has any license, permit or privilage
+                                            ever been
+                                            suspended or revoked?</label>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="revoked" id="contact-preference"
+                                                    value="Yes">Yes
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="revoked" id="contact-preference"
+                                                    value="No">No
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <button type="submit" href="#" style="margin: 0.3rem auto" class="btn btn--xlrg btn--gradient">
+                                            <span class="btn__text btn-text">Send</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

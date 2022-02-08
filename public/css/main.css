@@ -26,6 +26,7 @@
 }
 .header .navigation-list .navigation-item a {
   text-decoration: none;
+  color: #efefef;
 }
 .header .navigation-list .navigation-item .navigation-item-logo {
   width: 200px;
@@ -680,6 +681,7 @@
   font-family: "Bebas Neue", cursive;
   letter-spacing: 0.1rem;
   text-decoration: none;
+  color: #efefef;
 }
 @media (max-width: 426px) {
   .footer-wrap .footer {
@@ -721,6 +723,7 @@
 }
 .header-about .navigation-list .navigation-item a {
   text-decoration: none;
+  color: #efefef;
 }
 .header-about .navigation-list .navigation-item .navigation-item-logo {
   width: 200px;
@@ -827,6 +830,7 @@
 }
 .header-careers .navigation-list .navigation-item a {
   text-decoration: none;
+  color: #efefef;
 }
 .header-careers .navigation-list .navigation-item .navigation-item-logo {
   width: 200px;
@@ -1314,6 +1318,7 @@
 }
 .header-services .navigation-list .navigation-item a {
   text-decoration: none;
+  color: #efefef;
 }
 .header-services .navigation-list .navigation-item .navigation-item-logo {
   width: 200px;
@@ -1574,6 +1579,7 @@
 }
 .header-contact .navigation-list .navigation-item a {
   text-decoration: none;
+  color: #efefef;
 }
 .header-contact .navigation-list .navigation-item .navigation-item-logo {
   width: 200px;

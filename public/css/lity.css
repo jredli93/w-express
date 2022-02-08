@@ -81,7 +81,7 @@
     max-width: 100%;
     max-height: 100%;
     outline: none !important;
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -112,10 +112,9 @@
     width: 100%;
 }
 
-
 .lity-content .modalbox {
     position: relative;
-    padding: 2rem 4rem 3rem;
+    padding: 2rem 1rem 3rem;
     overflow: auto;
 }
 
@@ -158,6 +157,7 @@
     .modal-bottom {
         flex-direction: column;
         text-align: center !important;
+        margin-top: 10rem;
     }
 }
 
@@ -220,6 +220,14 @@
     color:rgba(0, 0, 0, 0.6);
     text-align: left;
 }
+
+.modal-center .contact-form .input-form .contact-input-wrap {
+    text-align: left;
+}
+/* 
+.modal-center .contact-form .input-form .contact-radio-text:last-of-type {
+    margin-top: 1.7rem;
+} */
 
 
 .modal-center .contact-form .input-form label {
@@ -475,4 +483,44 @@
 
 .lity-hide {
     display: none;
+}
+
+.modal-center .application-form {
+    margin-top: 5rem;
+}
+
+/* Application form modal */
+
+.application-form .form-group {
+    text-align: left;
+}
+.application-form .form-group label{
+    color: #0f0f0f;
+}
+
+.application-form .application-form-heading{
+    font-weight: 600;
+    text-align: left;
+    color: #3e3e3e;
+    margin-top: 1rem;
+}
+
+.application-form input {
+    border: unset;
+    border-bottom: 1px solid black;
+    border-radius: unset;
+}
+
+.application-form input:focus {
+    background-color: #fff;
+    border-bottom-color: #da0203e6;
+    box-shadow: unset;
+}
+
+.application-form .application-footer {
+    justify-content: space-evenly;
+}
+
+.application-form .application-footer label {
+    color: black;
 }

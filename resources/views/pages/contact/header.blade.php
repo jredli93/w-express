@@ -20,7 +20,7 @@
         <div data-aos="fade-up" data-aos-delay="200" class="banner-single">
             <i class="fa fa-3x fa-at"></i>
             <h2 class="banner-single-title">E-mail</h2>
-            <span class="banner-single-text">alexp@westexpressllc.com</span>
+            <span class="banner-single-text">info@westexpressllc.com</span>
         </div>
     </div>
 
