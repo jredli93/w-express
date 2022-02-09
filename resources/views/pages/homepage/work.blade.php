@@ -9,21 +9,21 @@
             <h1 class="modal-title">Company driver</h1>
             <div class="modal-center">
                 <div class="contact-form">
-                    <form action="#" class="input-form">
-
+                    <form method="POST" action="{{ route('contact.driver') }}" class="input-form">
+                        @csrf
                         <label>Full Name:</label>
-                        <input placeholder="John Doe" type="text" name="full-name" class="form-name">
+                        <input placeholder="John Doe" type="text" name="fullname" class="form-name">
 
                         <label>Email: </label>
-                        <input placeholder="example@email.com" type="email" class="form-email">
+                        <input placeholder="example@email.com" name="email" type="email" class="form-email">
 
                         <label>Message</label>
-                        <textarea placeholder="Please enter message text" name="ta" class="form-message" cols="30"
+                        <textarea placeholder="Please enter message text" name="message" class="form-message" cols="30"
                             rows="10"></textarea>
 
-                        <a href="#" class="btn btn--xlrg btn--gradient">
+                        <button type="submit" href="#" class="btn btn--xlrg btn--gradient">
                             <span class="btn__text btn-text">Send</span>
-                        </a>
+                        </button>
 
                     </form>
                 </div>
@@ -34,21 +34,20 @@
             <h1 class="modal-title">Owner operator</h1>
             <div class="modal-center">
                 <div class="contact-form">
-                    <form action="#" class="input-form">
-
+                    <form method="POST" action="{{ route('contact.operator') }}" class="input-form">
+                        @csrf
                         <label>Full Name:</label>
-                        <input placeholder="John Doe" type="text" name="full-name" class="form-name">
-
+                        <input placeholder="John Doe" type="text" name="fullname" class="form-name">
+                        
                         <label>Email: </label>
-                        <input placeholder="example@email.com" type="email" class="form-email">
-
+                        <input placeholder="example@email.com" name="email" type="email" class="form-email">
+                        
                         <label>Message</label>
-                        <textarea placeholder="Please enter message text" name="ta" class="form-message" cols="30"
-                            rows="10"></textarea>
-
-                        <a href="#" class="btn btn--xlrg btn--gradient">
+                        <textarea placeholder="Please enter message text" name="message" class="form-message" cols="30" rows="10"></textarea>
+                        
+                        <button type="submit" href="#" class="btn btn--xlrg btn--gradient">
                             <span class="btn__text btn-text">Send</span>
-                        </a>
+                        </button>
 
                     </form>
                 </div>

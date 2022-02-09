@@ -4,7 +4,7 @@
 
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <title>New Account Email Template</title>
+    <title>New application entry</title>
     <meta name="description" content="New Account Email Template.">
     <style type="text/css">
         a:hover {
