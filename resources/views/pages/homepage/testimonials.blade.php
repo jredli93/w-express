@@ -51,17 +51,6 @@
                     </div>
                     <h2 class="testimonials-name">Mark Hartman, Customer</h2>
                 </div>
-                <div class="carousel-cell">
-                    <div class="testimonials-image ai1">
-                        <i class="fas fa-quote-right"></i>
-                        <p class="testimonials-info-text">Lorem Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Pariatur excepturi alias unde nisi cupiditate asperiores. psum dolor sit amet
-                            consectetur adipisicing elit. Explicabo cum
-                            deleniti sii sit corporis molestias providenti sit corporis molestias providentt corporis
-                            molestias provident eius quas amet sint ipsa!</p>
-                    </div>
-                    <h2 class="testimonials-name">John Doe</h2>
-                </div>
             </div>
         </div>
     </div>

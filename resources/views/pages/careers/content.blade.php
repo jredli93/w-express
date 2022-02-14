@@ -51,18 +51,19 @@
             <div class="careers-cta-left">
                 <h1 class="careers-cta-title" data-aos="fade-up">Apply</h1>
                 <hr class="underline" data-aos="fade-up">
-                <p class="careers-cta-subtitle" data-aos="fade-up">Learn more on how to apply at West Express</p>
+                <p class="careers-cta-subtitle" data-aos="fade-up">West Express
+                    wants to talk to You</p>
                 <p class="careers-cta-text" data-aos="fade-up">
                     Apply now online clicking below or call our office 972-787-0047 during Monday- Friday 7am to 5 pm
                     CST.
                 </p>
                 <a data-aos="fade-up" href="#application-form" data-lity
                     class="btn careers-cta-left-btn btn--gradient btn--xlrg">
-                    <span class="btn__text"><i class="fa fa-2x fa-file-pdf cta-pdf"></i>Fill in the application</span>
+                    <span class="btn__text"><i class="fa fa-2x fa-file-pdf cta-pdf"></i>APPLY NOW</span>
                 </a>
                 <div id="application-form" style="background:#fff" class="modalbox lity-hide">
                     <div class="bg-effect"></div>
-                    <h1 class="modal-title">Initial Application</h1>
+                    <h1 class="modal-title">Application</h1>
                     <div class="modal-center">
                         <div class="application-form">
                             <div class="container">
@@ -72,8 +73,8 @@
                                         <div class="col-xl-12">
                                             <div class="form-group">
                                                 <label for="fullname">Full Name</label>
-                                                <input required type="text" class="form-control" placeholder="First Middle Last"
-                                                    name="fullname" id="fullname">
+                                                <input required type="text" class="form-control"
+                                                    placeholder="First Middle Last" name="fullname" id="fullname">
                                             </div>
                                         </div>
                                     </div>
@@ -127,8 +128,9 @@
                                         <div class="col-xl-4">
                                             <div class="form-group">
                                                 <label for="previous-address2-how-long">How Long?</label>
-                                                <input type="text" class="form-control" name="previous-address2-how-long"
-                                                    placeholder="2 yrs" id="previous-address2-how-long">
+                                                <input type="text" class="form-control"
+                                                    name="previous-address2-how-long" placeholder="2 yrs"
+                                                    id="previous-address2-how-long">
                                             </div>
                                         </div>
                                     </div>
@@ -154,8 +156,8 @@
                                         <div class="col-xl-4">
                                             <div class="form-group">
                                                 <label for="social">Social Security #</label>
-                                                <input required type="text" class="form-control" name="social" id="social"
-                                                    placeholder="xxx-xx-xxxx">
+                                                <input required type="text" class="form-control" name="social"
+                                                    id="social" placeholder="xxx-xx-xxxx">
                                             </div>
                                         </div>
                                     </div>
@@ -222,8 +224,8 @@
                                         <div class="col-xl-2">
                                             <div class="form-group">
                                                 <label for="drivers-expiration">Expiration Date</label>
-                                                <input required type="date" class="form-control" name="drivers-expiration"
-                                                    placeholder="" id="drivers-expiration">
+                                                <input required type="date" class="form-control"
+                                                    name="drivers-expiration" placeholder="" id="drivers-expiration">
                                             </div>
                                         </div>
                                     </div>
@@ -265,8 +267,8 @@
                                         <div class="col-xl-2">
                                             <div class="form-group">
                                                 <label for="drivers-equipment">Equipment Type</label>
-                                                <input required type="text" class="form-control" name="drivers-equipment"
-                                                    placeholder="" id="drivers-equipment">
+                                                <input required type="text" class="form-control"
+                                                    name="drivers-equipment" placeholder="" id="drivers-equipment">
                                             </div>
                                         </div>
                                         <div class="col-xl-4">
@@ -373,7 +375,7 @@
                 <div class="careers-cta-right-container">
                     <div class="careers-cta-right-stats">
                         <div class="stat">
-                            <span class="stat-number">8000+</span>
+                            {{-- <span class="stat-number">8000+</span> --}}
                             <span class="stat-text">No forced dispatch</span>
                         </div>
                         <div class="stat">
@@ -381,7 +383,7 @@
                             <span class="stat-text">Support</span>
                         </div>
                         <div class="stat">
-                            <span class="stat-number">200+</span>
+                            {{-- <span class="stat-number">200+</span> --}}
                             <span class="stat-text">Paid weekly</span>
                         </div>
                     </div>
@@ -393,9 +395,7 @@
     <section class="cta-careers-wrap">
         <div class="cta-careers">
             <h1 class="cta-careers-title">Contact us</h1>
-            <p class="cta-careers-text">If you would like to find out more about what we do. Please visit our About us
-                page
-                via link bellow.</p>
+            <p class="cta-careers-text">Click bellow for West Express contact Information</p>
             <a href="{{ route('contact') }}" class="btn btn--xlrg btn--gradient">
                 <span class="btn__text btn-text">Contact Us</span>
             </a>

@@ -1,7 +1,7 @@
 <section id="header" class="header">
     @include('utils.menu')
     <div class="cta">
-        <h1 class="cta-heading">DRIVEN BY THE BEST</h1>
+        <h1 class="cta-heading">WEST IS THE BEST</h1>
         <h1 class="cta-subheading">Welcome to West Express</h1>
         <div class="btn-wrap">
             <a href="{{ route('services') }}" class="btn btn--gradient btn--xlrg">
