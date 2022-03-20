@@ -36,7 +36,7 @@
                             change I made when I started with this company made me fall in love in what I
                             do again.”</p>
                     </div>
-                    <h2 class="testimonials-name">Denzel Malone – Company Driver</h2>
+                    <h2 class="testimonials-name">Chrisopher Terry – Company Driver</h2>
                 </div>
                 <div class="carousel-cell">
                     <div class="testimonials-image ai1">
