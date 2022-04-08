@@ -8,5 +8,5 @@
 </ul>
 <div class="navigation-mobile" id="navigation-mobile">
     <img class="navigation-mobile-logo" src="{{asset('/assets/images/we-logo.png')}}" alt="logo" />
-    <span class="navigation-hamburger"><i class="fas fa-bars"></i></span>
+    <span class="navigation-hamburger"><i class="fas fa-bars" area-hidden="true"></i></span>
 </div>

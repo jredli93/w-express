@@ -2,7 +2,7 @@
         <div class="services">
                 <h1 class="services-title">Services</h1>
                 <hr class="underline">
-                <p class="services-text"><b>TRUCKLOAD-EXPEDITED-DEDICATED</b></p>
+                <p class="services-text">TRUCKLOAD-EXPEDITED-DEDICATED</p>
                 <p class="services-content">Excellence in service is our mission and our comitment to you from
                         first contact with us to given task completition.
                         Our resources, our advanced fleet, our team of drivers and industry

@@ -214,6 +214,7 @@
 }
 .services-wrap .services .services-text {
   margin-bottom: 2rem;
+  font-weight: bold;
   color: #0f0f0f;
 }
 .services-wrap .services .services-content {
@@ -221,6 +222,9 @@
   font-size: 1.1rem;
   color: #0f0f0f;
   font-weight: 100;
+}
+.services-wrap .services .services-content b {
+  color: #0f0f0f;
 }
 .services-wrap .services .services-title {
   color: #efefef;
@@ -538,7 +542,7 @@
   filter: opacity(1);
 }
 .testimonials-wrap .testimonials-content .testimonials-overtitle {
-  color: #efefef;
+  color: #21546e;
   font-size: 1.2rem;
   display: block;
   text-align: center;
@@ -920,7 +924,7 @@
 }
 .careers-content-wrap .careers-values-wrap .careers-values {
   margin: 0 auto;
-  max-width: 70vw;
+  max-width: 90vw;
   text-align: center;
   padding: 7rem 0;
 }
@@ -935,6 +939,11 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 8rem;
+}
+@media (max-width: 1024px) {
+  .careers-content-wrap .careers-values-wrap .careers-values .banner-careers {
+    max-width: 90vw;
+  }
 }
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single {
   flex: 0 1 calc(25% - 0.5rem);
@@ -964,14 +973,13 @@
     flex: 0 1 calc(50% - 1rem);
   }
 }
-@media (max-width: 426px) {
-  .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single {
-    flex: 0 1 100%;
-    margin-top: 1rem;
-  }
-}
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single .banner-careers-single-title {
   margin: 0.6rem 0;
+}
+@media (max-width: 1024px) {
+  .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single .banner-careers-single-title {
+    font-size: 1rem;
+  }
 }
 .careers-content-wrap .careers-values-wrap .careers-values .banner-careers .banner-careers-single .banner-careers-single-text {
   text-align: center;
@@ -1191,7 +1199,7 @@
   text-shadow: 0px 0px 10px #0f0f0f;
 }
 .careers-content-wrap .careers-text {
-  color: #ababab;
+  color: #0f0f0f;
   text-align: center;
 }
 .careers-content-wrap .careers-content {

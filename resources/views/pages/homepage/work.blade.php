@@ -59,24 +59,6 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-xl-8">
-                                    <div class="form-group">
-                                        <label for="previous-address2">Previous Address</label>
-                                        <input type="text" class="form-control"
-                                            placeholder="(Street) (City) (State,Zip)" name="previous-address2"
-                                            id="previous-address2">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="previous-address2-how-long">How Long?</label>
-                                        <input type="text" class="form-control" name="previous-address2-how-long"
-                                            placeholder="2 yrs" id="previous-address2-how-long">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
                                 <div class="col-xl-4">
                                     <div class="form-group">
                                         <label for="phone">Phone</label>
@@ -169,36 +151,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-state1">State</label>
-                                        <input type="text" class="form-control" name="drivers-state1" placeholder=""
-                                            id="drivers-state1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-license1">License #</label>
-                                        <input type="text" class="form-control" name="drivers-license1" placeholder=""
-                                            id="drivers-license1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-type1">Type</label>
-                                        <input type="text" class="form-control" name="drivers-type1" placeholder=""
-                                            id="drivers-type1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-expiration1">Expiration Date</label>
-                                        <input type="date" class="form-control" name="drivers-expiration1"
-                                            placeholder="" id="drivers-expiration1">
-                                    </div>
-                                </div>
-                            </div>
 
 
                             <h2 class="application-form-heading">Drivers Experience</h2>
@@ -234,37 +186,6 @@
                                 </div>
                             </div>
 
-
-
-                            <div class="row">
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-equipment1">Equipment Type</label>
-                                        <input type="text" class="form-control" name="drivers-equipment1" placeholder=""
-                                            id="drivers-equipment1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-from1">From</label>
-                                        <input type="date" class="form-control" name="drivers-from1" id="drivers-from1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-to1">To</label>
-                                        <input type="date" class="form-control" name="drivers-to1" id="drivers-to1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-miles1">Miles</label>
-                                        <input type="text" class="form-control" name="drivers-miles1"
-                                            placeholder="Approx #" id="drivers-miles1">
-                                    </div>
-                                </div>
-                            </div>
-
                             <div class="row application-footer">
                                 <label for="contact-preference">Have you ever been denied a license, permit or
                                     privilage to operate a motor vehicle?</label>
@@ -279,6 +200,7 @@
                                     </label>
                                 </div>
                             </div>
+                           
                             <div class="row application-footer">
                                 <label for="contact-preference">Has any license, permit or privilage
                                     ever been
@@ -294,6 +216,15 @@
                                     </label>
                                 </div>
                             </div>
+
+                                 <div class="row application-footer">
+                                <label for="contact-preference">I certify that I have authorized West Express LLC  to perform my Driving Record (MVR) check as a requirement for the position I am applying for</label>
+                            </div>
+                            <div class="radio" style="text-align: center;">
+                                    <label style="margin-left:5px; color:black;">
+                                        <input type="checkbox" name="accept" id="contact-preference" value="accept">I agree
+                                    </label>
+                                </div>
 
                             <div class="row">
                                 <button type="submit" name="send" href="#" style="margin: 0.3rem auto"
@@ -360,23 +291,6 @@
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-xl-8">
-                                    <div class="form-group">
-                                        <label for="previous-address2">Previous Address</label>
-                                        <input type="text" class="form-control"
-                                            placeholder="(Street) (City) (State,Zip)" name="previous-address2"
-                                            id="previous-address2">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="previous-address2-how-long">How Long?</label>
-                                        <input type="text" class="form-control" name="previous-address2-how-long"
-                                            placeholder="2 yrs" id="previous-address2-how-long">
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="row">
                                 <div class="col-xl-4">
@@ -471,36 +385,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-state1">State</label>
-                                        <input type="text" class="form-control" name="drivers-state1" placeholder=""
-                                            id="drivers-state1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-license1">License #</label>
-                                        <input type="text" class="form-control" name="drivers-license1" placeholder=""
-                                            id="drivers-license1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-type1">Type</label>
-                                        <input type="text" class="form-control" name="drivers-type1" placeholder=""
-                                            id="drivers-type1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-expiration1">Expiration Date</label>
-                                        <input type="date" class="form-control" name="drivers-expiration1"
-                                            placeholder="" id="drivers-expiration1">
-                                    </div>
-                                </div>
-                            </div>
+                            <di
 
 
                             <h2 class="application-form-heading">Drivers Experience</h2>
@@ -536,37 +421,6 @@
                                 </div>
                             </div>
 
-
-
-                            <div class="row">
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-equipment1">Equipment Type</label>
-                                        <input type="text" class="form-control" name="drivers-equipment1" placeholder=""
-                                            id="drivers-equipment1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-from1">From</label>
-                                        <input type="date" class="form-control" name="drivers-from1" id="drivers-from1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="form-group">
-                                        <label for="drivers-to1">To</label>
-                                        <input type="date" class="form-control" name="drivers-to1" id="drivers-to1">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2">
-                                    <div class="form-group">
-                                        <label for="drivers-miles1">Miles</label>
-                                        <input type="text" class="form-control" name="drivers-miles1"
-                                            placeholder="Approx #" id="drivers-miles1">
-                                    </div>
-                                </div>
-                            </div>
-
                             <div class="row application-footer">
                                 <label for="contact-preference">Have you ever been denied a license, permit or
                                     privilage to operate a motor vehicle?</label>
@@ -596,6 +450,16 @@
                                     </label>
                                 </div>
                             </div>
+
+                              <div class="row application-footer">
+                                <label for="contact-preference">I certify that I have authorized West Express LLC  to perform my Driving Record (MVR) check as a requirement for the position I am applying for</label>
+                            </div>
+                            <div class="radio" style="text-align: center;">
+                                    <label style="margin-left:5px; color:black;">
+                                        <input type="checkbox" name="accept" id="contact-preference" value="accept">I agree
+                                    </label>
+                                </div>
+
 
                             <div class="row">
                                 <button type="submit" name="send" href="#" style="margin: 0.3rem auto"

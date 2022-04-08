@@ -1,7 +1,7 @@
 $('.main-carousel').flickity({
     cellAlign: 'left',
     contain: true,
-    autoPlay: true,
+    autoPlay: 7000,
     pageDots: true,
     setGallerySize: false,
     wrapAround: true,

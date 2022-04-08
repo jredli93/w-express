@@ -1,17 +1,17 @@
 <section class="testimonials-wrap">
     <div class="bg-effect"></div>
     <div class="testimonials-content">
-        <h1 class="testimonials-title">People said</h1>
+        <h1 class="testimonials-title">People say</h1>
         <hr class="underline center">
         <span class="testimonials-overtitle">about us</span>
     </div>
     <div class="testimonials-background">
         <div class="testimonials-info">
-            <h1 class="testimonials-info-title">People said</h1>
+            <h1 class="testimonials-info-title">People say</h1>
             <p class="testimonials-info-text">What people say stays, word of mouth is the best reference and guidance
                 that
                 exist.</p>
-            <a href="#" class="btn btn--xlrg btn--gradient">
+            <a href="/contact" class="btn btn--xlrg btn--gradient">
                 <span class="btn__text btn-text">Reach Us</span>
             </a>
         </div>

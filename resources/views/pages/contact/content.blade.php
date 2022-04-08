@@ -4,10 +4,10 @@
         <form method="POST" action="{{ route('contact.send') }}" class="input-form">
             @csrf
             <label>Full Name:</label>
-            <input placeholder="John Doe" type="text" name="fullname" class="form-name">
+            <input type="text" name="fullname" class="form-name">
             
             <label>Email: </label>
-            <input placeholder="example@email.com" name="email" type="email" class="form-email">
+            <input name="email" type="email" class="form-email">
             
             <label>Message</label>
             <textarea placeholder="Please enter message text" name="message" class="form-message" cols="30" rows="10"></textarea>

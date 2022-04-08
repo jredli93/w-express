@@ -35,6 +35,7 @@
         
         .services-text {
             margin-bottom: 2rem;
+            font-weight: bold;
             color: $dark-black;
         }
 
@@ -43,6 +44,10 @@
             font-size: 1.1rem;
             color: $dark-black;
             font-weight: 100;
+
+            b {
+                color: $dark-black
+            }
         }
 
         .services-title {

@@ -54,7 +54,7 @@
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="http://kit.fontawesome.com/5abe40685b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5abe40685b.js" crossorigin="anonymous"></script>
     <script>
         $(function() {
                 AOS.init();

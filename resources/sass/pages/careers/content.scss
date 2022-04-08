@@ -1,5 +1,4 @@
 .careers-content-wrap {
-
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
@@ -14,19 +13,16 @@
         }
     }
 
-
     .careers-values-wrap {
         background: #f7f7f7;
         height: auto;
         margin-top: 7rem;
 
         .careers-values {
-            @include center-content();
+            margin: 0 auto;
+            max-width: 90vw;
             text-align: center;
             padding: 7rem 0;
-
-
-
 
             .banner-careers {
                 @include center-content();
@@ -38,6 +34,10 @@
                 align-items: center;
                 flex-wrap: wrap;
                 margin-top: 8rem;
+
+                @include laptop() {
+                    max-width: 90vw;
+                }
 
                 .banner-careers-single {
                     flex: 0 1 calc(25% - 0.5rem);
@@ -69,13 +69,17 @@
                         flex: 0 1 calc(50% - 1rem);
                     }
 
-                    @include mobile() {
-                        flex: 0 1 100%;
-                        margin-top: 1rem;
-                    }
+                    // @include mobile() {
+                    //     flex: 0 1 100%;
+                    //     margin-top: 1rem;
+                    // }
 
                     .banner-careers-single-title {
                         margin: 0.6rem 0;
+                        
+                        @include laptop() {
+                            font-size: 1rem;
+                        }
                     }
 
                     .banner-careers-single-text {
@@ -94,58 +98,93 @@
                 }
             }
 
-
-
             .banner-careers-single:nth-child(1) {
-                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+                background: linear-gradient(
+                    30deg,
+                    #c17d36,
+                    #f1866bd1,
+                    #d85a1085
+                );
                 background-size: 400% 400%;
                 animation: gradient 5s ease infinite;
-
             }
 
             .banner-careers-single:nth-child(2) {
-                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+                background: linear-gradient(
+                    30deg,
+                    #33a2a1d1,
+                    #238eb5cc,
+                    #129475bd
+                );
                 background-size: 400% 400%;
                 animation: gradient 2s ease infinite;
             }
 
             .banner-careers-single:nth-child(3) {
-                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+                background: linear-gradient(
+                    30deg,
+                    #c17d36,
+                    #f1866bd1,
+                    #d85a1085
+                );
                 background-size: 400% 400%;
                 animation: gradient 7s ease infinite;
             }
 
             .banner-careers-single:nth-child(4) {
-                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+                background: linear-gradient(
+                    30deg,
+                    #33a2a1d1,
+                    #238eb5cc,
+                    #129475bd
+                );
                 background-size: 400% 400%;
                 animation: gradient 3s ease infinite;
             }
 
             .banner-careers-single:nth-child(5) {
-                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+                background: linear-gradient(
+                    30deg,
+                    #33a2a1d1,
+                    #238eb5cc,
+                    #129475bd
+                );
                 background-size: 400% 400%;
                 animation: gradient 7s ease infinite;
-
             }
 
             .banner-careers-single:nth-child(6) {
-                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+                background: linear-gradient(
+                    30deg,
+                    #c17d36,
+                    #f1866bd1,
+                    #d85a1085
+                );
                 background-size: 400% 400%;
                 animation: gradient 2s ease infinite;
             }
 
             .banner-careers-single:nth-child(7) {
-                background: linear-gradient(30deg, #33a2a1d1, #238eb5cc, #129475bd);
+                background: linear-gradient(
+                    30deg,
+                    #33a2a1d1,
+                    #238eb5cc,
+                    #129475bd
+                );
                 background-size: 400% 400%;
                 animation: gradient 3s ease infinite;
             }
 
             .banner-careers-single:nth-child(8) {
-                background: linear-gradient(30deg, #c17d36, #f1866bd1, #d85a1085);
+                background: linear-gradient(
+                    30deg,
+                    #c17d36,
+                    #f1866bd1,
+                    #d85a1085
+                );
                 background-size: 400% 400%;
                 animation: gradient 4.5s ease infinite;
             }
-
 
             .underline {
                 margin: 0 auto;
@@ -164,7 +203,6 @@
             }
         }
     }
-
 
     .careers-cta-wrap {
         height: 85vh;
@@ -201,7 +239,6 @@
                     padding: 3rem 0;
                     @include center-content();
                 }
-
 
                 .careers-cta-border {
                     position: absolute;
@@ -257,7 +294,13 @@
             .careers-cta-right {
                 flex: 0 1 42%;
                 height: 100%;
-                background-image: linear-gradient(75deg, rgb(40 163 190 / 0%) -5%, rgb(79 222 223 / 51%) 40%, rgb(123 206 210 / 25%) 65%, rgb(18 106 126 / 98%) 90%),
+                background-image: linear-gradient(
+                        75deg,
+                        rgb(40 163 190 / 0%) -5%,
+                        rgb(79 222 223 / 51%) 40%,
+                        rgb(123 206 210 / 25%) 65%,
+                        rgb(18 106 126 / 98%) 90%
+                    ),
                     url(/assets/images/parking1.jpg);
                 background-size: cover;
                 filter: grayscale(0.6);
@@ -318,7 +361,7 @@
     }
 
     .careers-text {
-        color: $light-black;
+        color: $dark-black;
         text-align: center;
     }
 
@@ -390,8 +433,12 @@
     .cta-careers-wrap {
         width: 100%;
         height: 55vh;
-        background: linear-gradient(55deg, rgba(255, 255, 255, 0.94) 46%, rgba(12, 95, 99, 0.58) 100%),
-            url('/assets/images/about.jpg');
+        background: linear-gradient(
+                55deg,
+                rgba(255, 255, 255, 0.94) 46%,
+                rgba(12, 95, 99, 0.58) 100%
+            ),
+            url("/assets/images/about.jpg");
         background-position: 85% 92%;
 
         .cta-careers {
