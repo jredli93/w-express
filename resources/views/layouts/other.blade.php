@@ -62,6 +62,7 @@
     </script>
     <script src="{{ asset('js/aos.js') }}" defer></script>
     <script src="{{ asset('js/lity.js') }}" defer></script>
+    <script src="{{ asset('js/main.js') }}" defer></script>
     <script src="{{ asset('js/mobile-menu.js') }}" defer></script>
     <script src="{{ asset('js/map.js') }}" defer></script>
 </body>

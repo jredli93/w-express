@@ -7,6 +7,9 @@
   \******************************/
 /***/ (() => {
 
+$(".close").click(function () {
+  $(this).parent(".alert").fadeOut();
+});
 $("#header").vegas({
   transition: "flash2",
   animation: "random",

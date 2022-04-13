@@ -10,8 +10,12 @@ class ApplicationController extends Controller
 {
     public function ApplicationForm(Request $request) {
 
-     Mail::to('web-tutorial@programmer.net')->send(new ApplicationMail($request->all()));
-     return back()->with('success', 'Thanks for contacting us!');
+    $this->validate($request,[
+        'accept'=>'required'
+    ]);
+
+     Mail::to('application@westexpressllc.com')->send(new ApplicationMail($request->all()));
+     return back()->with('success', 'Thanks for your application!');
 
     }
 }

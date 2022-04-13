@@ -1,5 +1,11 @@
 <section id="header" class="header">
     @include('utils.menu')
+    @if (session('success'))
+        <div class="alert success-alert">
+            <h3 class="alert-text"> {{ session('success') }}</h3>
+            <a class="close">&times;</a>
+        </div>
+    @endif
     <div class="cta">
         <h1 class="cta-heading">WEST IS THE BEST</h1>
         <h1 class="cta-subheading">Welcome to West Express</h1>

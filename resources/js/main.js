@@ -1,3 +1,7 @@
+$(".close").click(function () {
+    $(this).parent(".alert").fadeOut();
+});
+
 $("#header").vegas({
     transition: "flash2",
     animation: "random",
@@ -5,9 +9,7 @@ $("#header").vegas({
     slides: [
         {
             video: {
-                src: [
-                    "/assets/images/highway.mp4",
-                ],
+                src: ["/assets/images/highway.mp4"],
                 loop: false,
                 mute: true,
             },

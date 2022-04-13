@@ -75,10 +75,6 @@
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">From</strong>{{ $data['drivers-from'] }}
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">To</strong>{{ $data['drivers-to'] }}
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">Miles</strong>{{ $data['drivers-miles'] }}
-                                            <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">Drivers equipment #2</strong>{{ $data['drivers-equipment1'] ? $data['drivers-equipment1'] : '/' }}
-                                            <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">From #2</strong>{{ $data['drivers-from1'] ? $data['drivers-from1'] : '/' }}
-                                            <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">To #2</strong>{{ $data['drivers-to1'] ? $data['drivers-to1'] : '/' }}
-                                            <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">Miles #2</strong>{{ $data['drivers-miles1'] ? $data['drivers-miles1'] : '/' }}
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">License denied?</strong>{{ $data['denied'] }}
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">License revoked?</strong>{{ $data['revoked'] }}
 

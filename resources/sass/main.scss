@@ -1,27 +1,27 @@
 // Variables
-@import './helpers/variables.scss';
-@import './helpers/mixins.scss';
+@import "./helpers/variables.scss";
+@import "./helpers/mixins.scss";
 
 // Pages
-@import './pages/homepage/home.scss';
-@import './pages/homepage/services.scss';
-@import './pages/homepage/work.scss';
-@import './pages/homepage/cta-careers.scss';
-@import './pages/homepage/cta.scss';
-@import './pages/homepage/testimonials.scss';
-@import './pages/homepage/footer.scss';
+@import "./pages/homepage/home.scss";
+@import "./pages/homepage/services.scss";
+@import "./pages/homepage/work.scss";
+@import "./pages/homepage/cta-careers.scss";
+@import "./pages/homepage/cta.scss";
+@import "./pages/homepage/testimonials.scss";
+@import "./pages/homepage/footer.scss";
 
-@import './pages/about/header.scss';
-@import './pages/about/content.scss';
+@import "./pages/about/header.scss";
+@import "./pages/about/content.scss";
 
-@import './pages/careers/header.scss';
-@import './pages/careers/content.scss';
+@import "./pages/careers/header.scss";
+@import "./pages/careers/content.scss";
 
-@import './pages/services/header.scss';
-@import './pages/services/content.scss';
+@import "./pages/services/header.scss";
+@import "./pages/services/content.scss";
 
-@import './pages/contact/header.scss';
-@import './pages/contact/content.scss';
+@import "./pages/contact/header.scss";
+@import "./pages/contact/content.scss";
 
 // Global
 * {
@@ -35,7 +35,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 
 .overlay {
     display: none;
@@ -51,7 +50,7 @@ html {
 }
 
 .nav-colored {
-    background-color: #082931f2 !important;
+    background-color: #327a93 !important
 }
 
 .nav-transparent {
@@ -86,7 +85,6 @@ html {
     right: 21px;
     font-size: 2rem;
 }
-
 
 @media (max-width: 1024px) {
     html {
@@ -155,7 +153,6 @@ html {
     background: linear-gradient(54.7deg, #21546e 12%, #67bdcc 100%);
 }
 
-
 .btn--gradient:before {
     content: "";
     position: absolute;
@@ -194,7 +191,7 @@ html {
     font-weight: bold;
 
     @include mobile() {
-        font-size: 0.7rem;         
+        font-size: 0.7rem;
     }
 }
 
@@ -211,6 +208,52 @@ html {
 }
 
 .gradient-background {
-    background-color: #0093E9;
-    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 89%);
+    background-color: #0093e9;
+    background-image: linear-gradient(90deg, #0093e9 0%, #80d0c7 89%);
+}
+
+.alert {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    box-shadow: 0 0 8px 2px #ccc;
+    top: 20vh;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablet() {
+        top: 20vh;
+        width: 90vw;
+    }
+}
+
+.alert-text {
+    margin-bottom: 0;
+}
+
+.close {
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+.simple-alert {
+    background-color: #ebebeb;
+    border-left: 5px solid #6c6c6c;
+}
+.simple-alert .close {
+    border-color: #6c6c6c;
+    color: #6c6c6c;
+}
+
+.success-alert {
+    background-color: #327a93;
+    border-left: 5px solid #9fcbda;
+}
+.success-alert .close {
+    border-color: #178344;
+    color: #178344;
 }

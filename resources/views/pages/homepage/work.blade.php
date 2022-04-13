@@ -189,42 +189,53 @@
                             <div class="row application-footer">
                                 <label for="contact-preference">Have you ever been denied a license, permit or
                                     privilage to operate a motor vehicle?</label>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="denied" id="contact-preference" value="Yes">Yes
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="denied" id="contact-preference" value="No">No
-                                    </label>
+                                <div class="radio-wrap">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" required name="denied" id="contact-preference"
+                                                value="Yes">Yes
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="denied" id="contact-preference" value="No">No
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                           
+
                             <div class="row application-footer">
                                 <label for="contact-preference">Has any license, permit or privilage
                                     ever been
                                     suspended or revoked?</label>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="revoked" id="contact-preference" value="Yes">Yes
-                                    </label>
+                                <div class="radio-wrap">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" required name="revoked" id="contact-preference"
+                                                value="Yes">Yes
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="revoked" id="contact-preference" value="No">No
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="revoked" id="contact-preference" value="No">No
-                                    </label>
-                                </div>
+
                             </div>
 
-                                 <div class="row application-footer">
-                                <label for="contact-preference">I certify that I have authorized West Express LLC  to perform my Driving Record (MVR) check as a requirement for the position I am applying for</label>
-                            </div>
-                            <div class="radio" style="text-align: center;">
+                            <div class="row application-footer">
+                                <label for="contact-preference chb-agree">I certify that I have authorized West Express
+                                    LLC to
+                                    perform my Driving Record (MVR) check as a requirement for the position I am
+                                    applying for</label>
+                                <div class="radio" style="text-align: center;">
                                     <label style="margin-left:5px; color:black;">
-                                        <input type="checkbox" name="accept" id="contact-preference" value="accept">I agree
+                                        <input style="margin-right: 1rem;" type="checkbox" required name="accept"
+                                            id="contact-preference" value="accept">I agree
                                     </label>
                                 </div>
+                            </div>
 
                             <div class="row">
                                 <button type="submit" name="send" href="#" style="margin: 0.3rem auto"
@@ -385,9 +396,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <di
-
-
                             <h2 class="application-form-heading">Drivers Experience</h2>
 
                             <div class="row">
@@ -424,41 +432,53 @@
                             <div class="row application-footer">
                                 <label for="contact-preference">Have you ever been denied a license, permit or
                                     privilage to operate a motor vehicle?</label>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="denied" id="contact-preference" value="Yes">Yes
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="denied" id="contact-preference" value="No">No
-                                    </label>
+                                <div class="radio-wrap">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" required name="denied" id="contact-preference"
+                                                value="Yes">Yes
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="denied" id="contact-preference" value="No">No
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
+
                             <div class="row application-footer">
                                 <label for="contact-preference">Has any license, permit or privilage
                                     ever been
                                     suspended or revoked?</label>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="revoked" id="contact-preference" value="Yes">Yes
-                                    </label>
+                                <div class="radio-wrap">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" required name="revoked" id="contact-preference"
+                                                value="Yes">Yes
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="revoked" id="contact-preference" value="No">No
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="revoked" id="contact-preference" value="No">No
-                                    </label>
-                                </div>
+
                             </div>
 
-                              <div class="row application-footer">
-                                <label for="contact-preference">I certify that I have authorized West Express LLC  to perform my Driving Record (MVR) check as a requirement for the position I am applying for</label>
-                            </div>
-                            <div class="radio" style="text-align: center;">
+                            <div class="row application-footer">
+                                <label for="contact-preference chb-agree">I certify that I have authorized West Express
+                                    LLC to
+                                    perform my Driving Record (MVR) check as a requirement for the position I am
+                                    applying for</label>
+                                <div class="radio" style="text-align: center;">
                                     <label style="margin-left:5px; color:black;">
-                                        <input type="checkbox" name="accept" id="contact-preference" value="accept">I agree
+                                        <input style="margin-right: 1rem;" type="checkbox" required name="accept"
+                                            id="contact-preference" value="accept">I agree
                                     </label>
                                 </div>
+                            </div>
 
 
                             <div class="row">

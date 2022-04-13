@@ -518,9 +518,35 @@
 }
 
 .application-form .application-footer {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background: #21546e0f;
+    margin-top: 0.5rem;
+    padding: 0.7rem;
 }
 
 .application-form .application-footer label {
     color: black;
+}
+
+.application-form .application-footer .radio-wrap {
+    display: flex;
+}
+
+.application-form .application-footer .radio-wrap .radio {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.application-footer .chb-agree {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .application-form .application-footer {
+        justify-content: space-around;
+    }
+
+    .application-form .application-footer .radio-wrap .radio {
+        margin: 0;
+    }
 }
