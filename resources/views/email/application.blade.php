@@ -77,6 +77,7 @@
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">Miles</strong>{{ $data['drivers-miles'] }}
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">License denied?</strong>{{ $data['denied'] }}
                                             <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">License revoked?</strong>{{ $data['revoked'] }}
+                                            <strong style="display: block; font-size: 13px; margin: 24px 0 4px 0; font-weight:normal; color:rgba(0,0,0,.64);">Agreed to terms?</strong>{{ $data['accept'] }}
 
                                         </p>
 

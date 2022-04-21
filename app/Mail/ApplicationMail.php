@@ -29,6 +29,6 @@ class ApplicationMail extends Mailable
      */
     public function build()
     {
-        return $this->from('john@webslesson.info')->subject('New Application Entry')->view('email.application')->with('data', $this->data);
+        return $this->from('application@westexpressllc.com')->subject('New Application Entry')->view('email.application')->with('data', $this->data);
     }
 }
